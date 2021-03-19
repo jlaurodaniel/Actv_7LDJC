@@ -38,12 +38,9 @@ func sumaTres (x:Int , c:Int, v:Int) -> Int
  
  A) Generics: Crear la función genérica para intercambiar valores entre dos variables del mismo tipo.
 */
-func Generica( valorA: Int, valorB: Int) -> (Int,Int) {
-    let A = valorB
-    let varTemporal = valorA
-    let B = varTemporal
+func Generica( valorA: Int, valorB: Int) -> (Int,Int) { 
  
-   return (A,B)
+   return (valorB,valorA)
 }
 
 
